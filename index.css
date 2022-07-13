@@ -87,8 +87,9 @@ body{
     color: #2549D3;
 }
 #creating{
-    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    font-family: 'Space Grotesk', sans-serif, Arial, Helvetica, sans-serif;
     padding-left: 100px;
+    font-size: 20px;
 }
 #stronger{
     font-family: sans-serif, Arial, Helvetica, sans-serif;
@@ -121,21 +122,22 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: #2549D3;
 }
-#search{
+#search>a{
     padding: 20px;
     background-color: #2549D3;
     color: #FAFAFA;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 #lekki{
-    color: #FAFAFA;
+    color: grey;
 }
 #duplex{
-    color: #FAFAFA;
+    color: grey;
 }
 #price{
-    color: #FAFAFA;
+    color: grey;
 }
 #our{
     color: #2549D3;
@@ -148,12 +150,11 @@ body{
     color: #2549D3;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    padding: auto;
 }
 #this{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 100px;
+    font-size: 30px;
 }
 #bar3{
     display: flex;
@@ -162,30 +163,36 @@ body{
 }
 #find{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 30px;
 }
 #ourproperties{
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
-    color: #FAFAFA;
+    color: black;
 }
 #makepayments{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 30px;
 }
 #ourestates{
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
-    color: #FAFAFA;
+    color: black;
 }
 #makeitofficial{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 20px;
 }
 #wehave{
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
-    color: #FAFAFA;
+    color: black;
 }
 #whyus{
     font-family: Arial, Helvetica, sans-serif;
@@ -224,17 +231,16 @@ body{
     font-weight: lighter;
 }
 #palace{
-    font-size: xx-large;
     color: black;
-    font-weight: lighter;
+    font-weight: bold;
 }
 #ivy{
     color: black;
-    font-weight: lighter;
+    font-weight: bold;
 }
 #rexona{
     color: black;
-    font-weight: lighter;
+    font-weight: bold;
 }
 #lekki2{
     font-size: large;
@@ -244,6 +250,7 @@ body{
 #lekkiprice{
     font-size: large;
     font-weight: lighter;
+    color: #2549D3;
 }
 #esteemed{
     display: block;
@@ -260,7 +267,8 @@ body{
     font-weight: lighter;
 }
 #alex{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Space Grotesk', Arial, Helvetica, sans-serif;
+    color: black;
 }
 #client{
     display: flex;
@@ -271,7 +279,7 @@ body{
 #lorem{
     font-size: large;
     font-weight: lighter;
-    color: #FAFAFA;
+    color: black;
 }
 #last{
     background-color: #2549D3;
@@ -347,24 +355,33 @@ html{
     color: black;
     align-items: center;
     justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .rating{
     display: flex;
     flex: row;
     align-items: center;
-    margin-left: 100px;
+    margin-left: 300px;
+    justify-content: space-between;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    margin-top: 30px;
 }
 #reasons{
     list-style: none;
     line-break: auto;
     list-style-position: inside;
     color: black;
+    line-break: loose;
+    font-size: 30px;
 }
 .featuredproperties{
     display: flex;
     flex: row;
     align-items: center;
     justify-content: space-around;
+    padding: 50px;
 }
 .message{
     display: flex;
@@ -372,6 +389,8 @@ html{
     align-items: center;
     justify-content: space-around;
     color: black;
+    padding: 70px;
+    background-color: #FAFAFA;
 }
 #clientsay{
     color: black;
