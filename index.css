@@ -1,18 +1,22 @@
-#rent{
+#rent>a{
     color: black;
     font-weight: lighter;
+    text-decoration: none;
 }
-#land{
+#land>a{
     color: black;
     font-weight: lighter;
+    text-decoration: none;
 }
-#agent{
+#agent>a{
     color: black;
     font-weight: lighter;
+    text-decoration: none;
 }
-#contact{
+#contact>a{
     color: black;
     font-weight: lighter;
+    text-decoration: none;
 }
 body{
     background-color: #FAFAFA;
@@ -20,14 +24,16 @@ body{
 #name{
     font-style: italic;
     padding-right: 100px;
-    font-size: xx-large;
+    font-size: 35px;
+    color: black;
 }
-#home{
+#home>a{
     padding-right: 100px;
-    color: blue;
+    color: #2549D3;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     font-size: x-large;
+    text-decoration: none;
 }
 #rent{
     padding-right: 100px;
@@ -53,31 +59,32 @@ body{
     font-weight: lighter;
     font-size: x-large;
 }
-#get{
-    background-color: blue;
+#get>a{
+    background-color: #2549D3;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     border-radius: 10px;
     padding: 20px;
     font-size: x-large;
+    text-decoration: none;
 }
 #helping{
     font-family: sans-serif, Arial, Helvetica, sans-serif;
     padding-left: 100px;
     font-size: 50px;
-    color: blue;
+    color: #2549D3;
 }
 #property{
     padding-left: 100px;
     font-size: 50px;
     font-family: sans-serif, Arial, Helvetica, sans-serif;
-    color: blue;
+    color: #2549D3;
 }
 #dreams{
     padding-left: 100px;
     font-size: 50px;
     font-family: sans-serif, Arial, Helvetica, sans-serif;
-    color: blue;
+    color: #2549D3;
 }
 #creating{
     font-family: sans-serif, Arial, Helvetica, sans-serif;
@@ -89,7 +96,7 @@ body{
 }
 #learn{
     padding: 20px;
-    background-color: blue;
+    background-color: #2549D3;
     margin-left: 0px;
     color: white;
     border-radius: 10px;
@@ -102,43 +109,43 @@ body{
     padding-right: 100px;
     margin-left: 200px;
     font-family: Arial, Helvetica, sans-serif;
-    color: blue;
+    color: #2549D3;
 }
 #propertytype{
     padding-right: 100px;
     font-family: Arial, Helvetica, sans-serif;
-    color: blue;
+    color: #2549D3;
 }
 #max{
     padding-right: 100px;
     font-family: Arial, Helvetica, sans-serif;
-    color: blue;
+    color: #2549D3;
 }
 #search{
     padding: 20px;
-    background-color: blue;
-    color: white;
+    background-color: #2549D3;
+    color: #FAFAFA;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
 #lekki{
-    color: grey;
+    color: #FAFAFA;
 }
 #duplex{
-    color: grey;
+    color: #FAFAFA;
 }
 #price{
-    color: grey;
+    color: #FAFAFA;
 }
 #our{
-    color: blue;
+    color: #2549D3;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-size: xx-large;
     margin-left: 100px;
 }
 #how{
-    color: blue;
+    color: #2549D3;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     padding: auto;
@@ -160,7 +167,7 @@ body{
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
-    color: grey;
+    color: #FAFAFA;
 }
 #makepayments{
     font-family: Arial, Helvetica, sans-serif;
@@ -169,7 +176,7 @@ body{
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
-    color: grey;
+    color: #FAFAFA;
 }
 #makeitofficial{
     font-family: Arial, Helvetica, sans-serif;
@@ -178,15 +185,15 @@ body{
     font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
-    color: grey;
+    color: #FAFAFA;
 }
 #whyus{
     font-family: Arial, Helvetica, sans-serif;
-    color: blue;
+    color: #2549D3;
 }
 #creatingquality{
     font-weight: lighter;
-    color: grey;
+    color: #FAFAFA;
     font-size: large;
 }
 #list{
@@ -205,7 +212,7 @@ body{
 }
 #ourfeatured{
     font-family: Arial, Helvetica, sans-serif;
-    color: blue;
+    color: #2549D3;
     text-align: center;
     border-color: white;
     border-color: white;
@@ -244,7 +251,7 @@ body{
     border-color: white;
 }
 #esteemedc{
-    color: blue;
+    color: #2549D3;
     font-family: Arial, Helvetica, sans-serif;
 }
 #clientsay{
@@ -264,10 +271,10 @@ body{
 #lorem{
     font-size: large;
     font-weight: lighter;
-    color: grey;
+    color: #FAFAFA;
 }
 #last{
-    background-color: blue;
+    background-color: #2549D3;
     color: white;
     list-style: none;
     text-align: left;
@@ -314,7 +321,7 @@ html{
     flex: row;
     border-bottom: solid 1px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around
 }
 .description{
     display: flex;
@@ -377,4 +384,7 @@ html{
     justify-content: space-around;
     background-color: #2549D3;
     color: white;
+}
+*{
+    font-family: 'Space Grotesk', 'Oleo Script';
 }
