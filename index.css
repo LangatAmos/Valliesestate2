@@ -403,7 +403,28 @@ html{
     justify-content: space-around;
     background-color: #2549D3;
     color: white;
+    padding: 60px;
+    font-family: 'Space Grotesk', Arial, Helvetica, sans-serif;
 }
 *{
     font-family: 'Space Grotesk', 'Oleo Script';
+}
+#viewmore{
+    color: #FAFAFA;
+    font-size: 25px;
+    background-color: #2549D3;
+    padding: 30px;
+}
+#viewmore>a{
+    color: #FAFAFA;
+    text-decoration: none;
+    font-family: 'Space Grotesk', 'Inter';
+    text-align: end;
+}
+#name{
+    color: #FAFAFA;
+}
+#viewbutton{
+    justify-content: left;
+    margin-left: 1200px;
 }
