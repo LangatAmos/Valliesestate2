@@ -3,15 +3,24 @@
     font-weight: lighter;
     text-decoration: none;
 }
+#rent>a:hover{
+    color: #2549D3
+}
 #land>a{
     color: black;
     font-weight: lighter;
     text-decoration: none;
 }
+#land>a:hover{
+    color: #2549D3;
+}
 #agent>a{
     color: black;
     font-weight: lighter;
     text-decoration: none;
+}
+#agent>a:hover{
+    color: #2549D3;
 }
 #contact>a{
     color: black;
@@ -21,7 +30,7 @@
 body{
     background-color: #FAFAFA;
 }
-#name{
+#name1{
     font-style: italic;
     padding-right: 100px;
     font-size: 35px;
@@ -34,6 +43,9 @@ body{
     font-weight: lighter;
     font-size: x-large;
     text-decoration: none;
+}
+#home>a:hover{
+    color: black;
 }
 #rent{
     padding-right: 100px;
@@ -67,6 +79,9 @@ body{
     padding: 20px;
     font-size: x-large;
     text-decoration: none;
+}
+#get>a:hover{
+    color: black;
 }
 #helping{
     font-family: sans-serif, Arial, Helvetica, sans-serif;
@@ -129,6 +144,9 @@ body{
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
+}
+#search>a:hover{
+    color: black;
 }
 #lekki{
     color: grey;
@@ -427,4 +445,17 @@ html{
 #viewbutton{
     justify-content: left;
     margin-left: 1200px;
+}
+.footer>div>ol>li>a{
+    color: #FAFAFA;
+    text-decoration: none;
+}
+.footer>div>ol>li>a:hover{
+    color: black;
+}
+#viewmore>a:hover{
+    color: black;
+}
+#contact>a:hover{
+    color: #2549D3;
 }
